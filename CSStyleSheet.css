@@ -1,17 +1,9 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : May 25, 2020, 5:32:21 AM
-    Author     : thangamann
-*/
-
 <!DOCTYPE html>
 <html>
 <head>
 <style>
+
+//useless class to make my links work
 .button {
   background-color: #4CAF50;
   border: none;
@@ -24,16 +16,25 @@ and open the template in the editor.
   margin: 4px 2px;
   cursor: pointer;
 }
+div.link1{
+  position:fixed;
+  bottom: 245px;
+  left: 185px;
+  width: 100px;
+}
+div.link2{
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+  width: 100px;
+}
+div.link3{
+  position: fixed;
+  bottom: 150px;
+  left: 300px;
+  width: 100px;
+}
 </style>
 </head>
-<body>
-
-<h2>CSS Buttons</h2>
-
-<button>Default Button</button>
-<a href="#" class="button">Link Button</a>
-<button class="button">Button</button>
-<input type="button" class="button" value="Input Button">
-
-</body>
+<body> </body>  //useless
 </html>
